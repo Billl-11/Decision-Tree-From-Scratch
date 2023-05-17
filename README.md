@@ -22,8 +22,11 @@ The decision tree algorithm consists of the following steps:
 1. Data Preprocessing: The mushroom dataset is preprocessed to ensure that it is suitable for training the decision tree. This includes, encoding categorical attributes.
 
 2. Entropy Calculation: Entropy is a measure of impurity in a dataset. The entropy of the target variable (edibility) is calculated before and after each attribute split to determine the information gain.
+The entropy is calculated as $$H(p_1) = -p_1 \text{log}_2(p_1) - (1- p_1) \text{log}_2(1- p_1) \tag{1}$$
 
 3. Information Gain Calculation: Information gain quantifies the reduction in entropy achieved by splitting the dataset based on a particular attribute. The attribute with the highest information gain is selected as the splitting criterion at each node of the decision tree.
+The Information Gain is calculated as
+$$\text{Information Gain} = H(p_1^\text{node})- (w^{\text{left}}H(p_1^\text{left}) + w^{\text{right}}H(p_1^\text{right})) \tag{2}$$
 
 4. Tree Construction: The decision tree is constructed recursively by splitting the dataset based on the selected attribute and creating child nodes for each unique attribute value. This process continues until a stopping criterion is met, such as reaching a maximum depth or having pure leaf nodes.
 
