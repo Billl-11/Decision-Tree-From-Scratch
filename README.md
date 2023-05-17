@@ -8,8 +8,7 @@ Source of datasets: [Advanced Learning Algorithms by DeepLearning.AI, Coursera](
 
 The objective of this project is to develop a reliable decision tree model that can accurately classify mushrooms as either edible or poisonous. Decision trees are a popular machine learning algorithm for classification tasks as they provide interpretable and understandable results.
 
-![edible mushrooms.jpg](https://github.com/Billl-11/Decision-Tree-From-Scratch/blob/main/edible_mushrooms.jpg)
-
+<img src="[https://example.com/image.png](https://github.com/Billl-11/Decision-Tree-From-Scratch/blob/main/edible_mushrooms.jpg)" width="300" alt="edible mushrooms.jpg">
 > Note: The dataset used is for illustrative purposes only. It is not meant to be a guide on identifying edible mushrooms.
 
 ## Decision Tree Implementation
