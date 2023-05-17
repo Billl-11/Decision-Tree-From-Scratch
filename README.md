@@ -2,10 +2,13 @@
 **Mushroom Classification Decision Tree Model**
 
 This repository contains a decision tree model implemented from scratch for classifying mushrooms as edible or poisonous. The classification is performed by calculating entropy and information gain based on various attributes of the mushrooms.
+Source of datasets: [Advanced Learning Algorithms by DeepLearning.AI, Coursera](https://www.coursera.org/learn/advanced-learning-algorithms) 
 
 ## Introduction
 
 The objective of this project is to develop a reliable decision tree model that can accurately classify mushrooms as either edible or poisonous. Decision trees are a popular machine learning algorithm for classification tasks as they provide interpretable and understandable results.
+
+![edible mushrooms.jpg](/content/edible_mushrooms.jpg)
 
 > Note: The dataset used is for illustrative purposes only. It is not meant to be a guide on identifying edible mushrooms.
 
